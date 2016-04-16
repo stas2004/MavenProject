@@ -17,14 +17,6 @@ public class Reverse  implements IReverseArray {
 
     /**
      *
-     * reverse_Array() is reverse of <T> type array.
-     * @return reversed array of <T> type
-     */
-
-
-
-    /**
-     *
      * @param array is array <T> type
      * @param <T> type
      * @return reversed array of <T> type
