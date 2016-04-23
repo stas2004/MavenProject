@@ -16,7 +16,7 @@ public class ReverseTest {
         reverse = new Reverse();
         Integer[] array1 = {1,2,3,4,5,6,7,8,9,10};
         Integer[] array2 = {10,9,8,7,6,5,4,3,2,1};
-        assertArrayEquals(reverse.reverseArray(array1),array2);
+        assertArrayEquals(array2, reverse.reverseArray(array1));
     }
 
     @Test
@@ -24,7 +24,7 @@ public class ReverseTest {
         reverse = new Reverse();
         String[] array1 = {"One","Two","Three","Four","Five"};
         String[] array2 = {"Five","Four","Three","Two","One"};
-        assertArrayEquals(reverse.reverseArray(array1),array2);
+        assertArrayEquals(array2, reverse.reverseArray(array1));
     }
 
     @Test
@@ -32,6 +32,6 @@ public class ReverseTest {
         reverse = new Reverse();
         Character[] array1 = {'a','b','c','d'};
         Character[] array2 = {'d','c','b','a'};
-        assertArrayEquals(reverse.reverseArray(array1),array2);
+        assertArrayEquals(array2, reverse.reverseArray(array1));
     }
 }

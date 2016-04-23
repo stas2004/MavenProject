@@ -15,6 +15,7 @@ public class CreateArrayTest {
     @Test
     public void createArray() throws Exception {
         createdArray.createArray(10);
-        assertTrue(createdArray.createArray(10).length == 10);
+
+        assertEquals(10, createdArray.createArray(10).length);
     }
 }
